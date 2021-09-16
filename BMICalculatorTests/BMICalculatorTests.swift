@@ -2,7 +2,7 @@
 //  BMICalculatorTests.swift
 //  BMICalculatorTests
 //
-//  Created by Marcelo Rodrigues de Sousa on 15/09/21.
+//  Created by Giovanna Rodrigues on 15/09/21.
 //
 
 import XCTest
