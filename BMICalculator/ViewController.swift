@@ -31,7 +31,8 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToResultView"{
             let destinationVC = segue.destination as! ResultViewController
-            destinationVC.bmi = String(format: "%.1f", self.bmiCalculatorBrain.getBmi())
+            destinationVC.bmi = self.bmiCalculatorBrain.getBmi()
+            destinationVC.advice = self.bmiCalculatorBrain.getAdvice()
         }
     }
     override func viewDidLoad() {

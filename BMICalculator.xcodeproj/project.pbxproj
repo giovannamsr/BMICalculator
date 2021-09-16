@@ -17,6 +17,7 @@
 		9C30945026F2876000CF07D8 /* BMICalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C30944F26F2876000CF07D8 /* BMICalculatorUITests.swift */; };
 		9C30946026F2C0C000CF07D8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C30945F26F2C0C000CF07D8 /* ResultViewController.swift */; };
 		9C30946226F2C8CB00CF07D8 /* BmiCalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C30946126F2C8CB00CF07D8 /* BmiCalculatorBrain.swift */; };
+		9C30946426F3C5D700CF07D8 /* Bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C30946326F3C5D700CF07D8 /* Bmi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9C30945126F2876000CF07D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C30945F26F2C0C000CF07D8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		9C30946126F2C8CB00CF07D8 /* BmiCalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiCalculatorBrain.swift; sourceTree = "<group>"; };
+		9C30946326F3C5D700CF07D8 /* Bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bmi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				9C30943126F2875D00CF07D8 /* ViewController.swift */,
 				9C30945F26F2C0C000CF07D8 /* ResultViewController.swift */,
 				9C30946126F2C8CB00CF07D8 /* BmiCalculatorBrain.swift */,
+				9C30946326F3C5D700CF07D8 /* Bmi.swift */,
 			);
 			path = BMICalculator;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C30946426F3C5D700CF07D8 /* Bmi.swift in Sources */,
 				9C30943226F2875D00CF07D8 /* ViewController.swift in Sources */,
 				9C30942E26F2875D00CF07D8 /* AppDelegate.swift in Sources */,
 				9C30943026F2875D00CF07D8 /* SceneDelegate.swift in Sources */,
